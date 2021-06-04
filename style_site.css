@@ -111,7 +111,7 @@ nav ul {
 }
 
 #logo-img img {
-  height: 75px;
+  height: 90%;
 }
 
 #menu-icon {
@@ -127,9 +127,9 @@ nav ul {
 
 #search-icon {
   color: #202125;
-  padding: 0 32px;
+  padding: 14px 30px;
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.25s;
 }
 
 #search-icon:hover {
@@ -190,6 +190,7 @@ nav ul {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  transition: 0.25s;
 }
 
 .dropdown-content {
@@ -221,9 +222,9 @@ nav ul {
 
 /* Slide Show */
 .slideshow-container {
-  padding-top: 90px;
-  max-width: 1690px;
-  height: 770px;
+  padding-top: 5%;
+  max-width: 95%;
+  height: 80%;
   position: relative;
   margin: auto;
 }
@@ -280,8 +281,8 @@ img {
 .dot {
   margin-top: 15px;
   cursor: pointer;
-  height: 20px;
-  width: 20px;
+  height: 18px;
+  width: 18px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;

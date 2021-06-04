@@ -12,66 +12,95 @@
   <title>GTCoding</title>
 </head>
 
-<body>
-  <div class="slideout-menu">
-      <ul>
-          <li>
-              <a href="responsive_site.html">Ana Sayfa</a>
-          </li>
-          <li>
-              <a href="projects.html">Ürünler</a>
-          </li>
-          <li>
-              <a href="solutions.html">Çözümler</a>
-          </li>     
-          <li>
-              <a href="help.html">Destek</a>
-          </li>       
-          <li>
-              <a href="about.html">Hakkımızda</a>
-          </li>
-              <input type="text" placeholder="Search Here">
-          </li>
-      </ul>
-  </div>
-
-  <nav>
-      <div id="logo-img">
-          <a href="#">
-              <img src="img/logo.png" alt="GTCoding Logo">
-          </a>
-      </div>
-      <div id="menu-icon">
-          <i class="fas fa-bars"></i>
-      </div>
-      <ul>
-          <li>
-              <a href="responsive_site.html">Ana Sayfa</a>
-          </li>
-          <li>
-              <a href="projects.html">Ürünler</a>
-          </li>
-          <li>
-              <a href="solutions.html">Çözümler</a>
-          </li>     
-          <li>
-              <a href="help.html">Destek</a>
-          </li>       
-          <li>
-              <a href="about.html">Hakkımızda</a>
-          </li>
-          <li>
-              <div id="search-icon">
-                  <i class="fas fa-search"></i>
+<header>
+    <div class="slideout-menu">
+        <ul>
+            <li>
+                <a href="responsive_site.html">Ana Sayfa</a>
+            </li>
+            <div class="dropdown">
+                <button class="dropbtn">Ürünler 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="projects.html">Ölçü ve Kontrol</a>
+                  <a href="projects.html">Veri Toplama</a>
+                  <a href="projects.html">Görüntüleme</a>
+                </div>
               </div>
-          </li>
-      </ul>
-  </nav>
+            <li>
+                <a href="solutions.html">Çözümler</a>
+            </li>     
+            <div class="dropdown">
+                <button class="dropbtn">Destek 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="help.html">Üretim</a>
+                  <a href="help.html">Teknik Destek</a>
+                </div>
+            </div>      
+            <li>
+                <a href="about.html">Hakkımızda</a>
+            </li>
+            <li>
+                <input type="text" placeholder="Ara..">
+            </li>
+        </ul>
+    </div>
 
-  <div id="searchbox">
-      <input type="text" placeholder="Search Here">
-  </div>
+    <nav>
+        <div id="logo-img">
+            <a href="responsive_site.html">
+                <img src="/home/sila/Desktop/logo_bilkon.png">
+            </a>
+        </div>
+        <div id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul>
+            <li>
+                <a href="responsive_site.html">Ana Sayfa</a>
+            </li>
+            <div class="dropdown">
+                <button class="dropbtn">Ürünler 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="projects.html">Ölçü ve Kontrol</a>
+                  <a href="projects.html">Veri Toplama</a>
+                  <a href="projects.html">Görüntüleme</a>
+                </div>
+            </div>
+            <li>
+                <a href="solutions.html">Çözümler</a>
+            </li>     
+            <div class="dropdown">
+                <button class="dropbtn">Destek 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="help.html">Üretim</a>
+                  <a href="help.html">Teknik Destek</a>
+                </div>
+            </div>       
+            <li>
+                <a href="about.html">Hakkımızda</a>
+            </li>
+            <li>
+                <div id="search-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+            </li>
+        </ul>
+    </nav>
 
+    <div id="searchbox">
+        <input type="text" placeholder="Ara..">
+    </div>
+ </header>
+
+<body>
   <main>
     <h2 class="page-heading">Blogs</h2>
 
