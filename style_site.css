@@ -4,7 +4,7 @@ header {
 }
 body {
   font-family: "Roboto", sans-serif;
-  margin: 0;
+  margin: 0 auto;
   /*background: #202125;
   color: white;*/
 }
@@ -221,7 +221,7 @@ nav ul {
 /* Slide Show */
 .slideshow-container {
   padding-top: 5%;
-  max-width: 95%;
+  max-width: 80%;
   height: 80%;
   position: relative;
   margin: auto;
@@ -279,8 +279,8 @@ img {
 .dot {
   margin-top: 15px;
   cursor: pointer;
-  height: 18px;
-  width: 18px;
+  height: 15px;
+  width: 15px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -326,7 +326,7 @@ section {
   transition: all 0.4s;
   display: inline-block;
   padding: 4px 32px;
-  margin-bottom: 3%;
+  margin-top: 3%;
 }
 
 .section-heading:hover {
@@ -351,6 +351,7 @@ section {
 
 .card-image {
   transition: 0.3s;
+  padding: 0 10%;
 }
 
 .card-image:hover {
@@ -359,9 +360,16 @@ section {
 
 .card {
   margin-top: 10px;
+
 }
 .card .card-description {
-  padding: 0 8px;
+  padding: 0 10%;
+  width: 80%;
+}
+
+.card2 .card-description{
+  padding: 0 10%;
+  width: 80%;
 }
 
 .card-meta-blogpost{
@@ -623,8 +631,9 @@ footer #social-media-footer ul li:hover a .fa-github {
   }
 
   .card {
-    text-align: center;
+    text-align: left;
   }
+
 }
 
 @media (min-width: 720px) {
