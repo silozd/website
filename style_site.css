@@ -175,7 +175,6 @@ nav ul {
   text-align: center;
 }
 
-/*/*//*/*//**//*/*//*/*//*/*//**//*/*//*/*//*/*//**//*/*//*/*//*/*//**//*/*//*/*//*/*//**//*/*/
 .dropdown {
   float: left;
   overflow: hidden;
@@ -218,7 +217,6 @@ nav ul {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/*/*//*/*//**//*/*//*/*//*/*//**//*/*//*/*//*/*//**//*/*//*/*//*/*//**//*/*//*/*//*/*//**//*/*/
 
 /* Slide Show */
 .slideshow-container {
@@ -322,16 +320,19 @@ section {
 .section-heading {
   font-size: 32px;
   font-family: "Roboto Condensed", sans-serif;
-  border-left: 3px solid black;
-  border-right: 3px solid black;
+  color:  #313688;
+  border-left: 3px solid #313688;
+  border-right: 3px solid #313688;
   transition: all 0.4s;
   display: inline-block;
   padding: 4px 32px;
+  margin-bottom: 3%;
 }
 
 .section-heading:hover {
-  padding: 4px 48px;
-  background: red;
+  padding: 4px 100px;
+  background: #313688;
+  color: white;
 }
 
 /* Section Source */
@@ -349,13 +350,16 @@ section {
 /* Card */
 
 .card-image {
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .card-image:hover {
-  box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 5px 10px 10px -5px #777;
 }
 
+.card {
+  margin-top: 10px;
+}
 .card .card-description {
   padding: 0 8px;
 }
@@ -374,10 +378,10 @@ section {
 /* Button Read more */
 
 .btn-readmore {
-  padding: 8px 24px;
-  border: 3px solid black;
-  transition: 0.4s;
+  padding: 8px 8px 8px 30px;
+  transition: 0.25s;
   display: inline-block;
+  float: right;
   margin-bottom: 24px;
   margin-left: 24px;
   font-weight: bold;
@@ -386,19 +390,18 @@ section {
 }
 
 .btn-readmore:hover {
-  background: red;
   text-decoration: none;
-  padding: 8px 64px 8px 24px;
-  color: white;
+  padding: 8px 30px 8px 8px;
 }
 
 /* Footer */
 
 footer {
-  background: black;
+  background: #313688;
   padding: 8px;
   color: #eee;
   display: flex;
+  width: ;
 }
 
 footer a {
@@ -407,14 +410,14 @@ footer a {
 
 footer #left-footer {
   flex: 1;
-  border-right: 1px solid red;
+  border-right: 2px solid orangered;
   padding-left: 32px;
 }
 
 footer #left-footer ul {
   padding: 0;
   list-style: none;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 footer #right-footer {
@@ -619,14 +622,6 @@ footer #social-media-footer ul li:hover a .fa-github {
     width: 100%;
   }
 
-  h1 {
-    font-size: 48px;
-  }
-
-  #banner h3 {
-    font-size: 20px;
-  }
-
   .card {
     text-align: center;
   }
@@ -637,10 +632,14 @@ footer #social-media-footer ul li:hover a .fa-github {
     width: 95%;
   }
   .card {
-    width: 45%;
+    width: 30%;
   }
   .card .card-image img {
     width: 100%;
+  }
+
+  .card2{
+    width: 20%;
   }
 }
 
