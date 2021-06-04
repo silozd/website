@@ -79,7 +79,11 @@ nav {
 }
 
 nav a {
-  padding: 0 30px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: #202125;
+  padding: 14px 30px;
   color: #202125;
   transition: 0.25s;
 }
@@ -182,7 +186,7 @@ nav ul {
   border: none;
   outline: none;
   color: #202125;
-  padding: 14px 16px;
+  padding: 14px 30px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -192,14 +196,14 @@ nav ul {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
   float: none;
-  color: black;
+  color: #202125;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
