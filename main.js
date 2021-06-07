@@ -51,10 +51,12 @@ function showSlides(n) {
 }
 
 $(document).on('ready', function () {
-    $(".card2").slick({
-        infinite: true,
-        slidesToShow: 5,
-        slidesToScroll: 5,
-        arrows: true,
+  $('.card2').slick({
+    infinite: false,
+    speed: 300,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    cssEase: 'linear',
+    arrows: true,
     });
-});
+});  

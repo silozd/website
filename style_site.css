@@ -5,7 +5,7 @@ header {
 body {
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
-  background: lightgray;  
+  background: whitesmoke;  
 }
 
 p {
@@ -34,7 +34,7 @@ textarea {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
   border: none;
-  color:  red;
+  color:  firebrick;
 }
 
 input:focus,
@@ -238,7 +238,7 @@ img {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 55%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -317,7 +317,7 @@ section {
 }
 
 .section-heading {
-  font-size: 32px;
+  font-size: 35px;
   font-family: "Roboto Condensed", sans-serif;
   color:  #313688;
   border-left: 3px solid #313688;
@@ -364,10 +364,11 @@ section {
 .card .card-description {
   padding: 0 10%;
   width: 80%;
+  color: #333333;
 }
 
 h3{
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .card .card-description h3{
@@ -376,22 +377,46 @@ h3{
   box-shadow: 3px 5px 5px rgb(140,140,140);
   padding: 2% 10px; 
 }
-
 .card2 {
   display: flex;
 }
-
-.card2 .card2-description{
-  background: white;
-  padding: 10px 10%;
-  width: 100%;
-  display: flex;
+.card2 div{
+  padding: 5px 1%;
+  width: 500%;
+  color: #333333;
 }
 
 .card2 h3{
-  color: #313688;
-  width: 280px;
+  color: firebrick;
 }
+/**//**//**//**//**//**//**//**//*/*//*/**//*/**************/
+
+.card2>.slick-prev {
+  left: -10%;
+  z-index: 1;
+}
+.card2>.slick-next {
+  right: -410%;
+  z-index: 1;
+}
+.slick-prev:before {
+  content: "\f104";
+  font-family: FontAwesome;
+  font-size: 50px;
+  color: black !important;
+  z-index: 100;
+}
+
+.slick-next:before {
+  content: "\f105";
+  font-family: FontAwesome;
+  font-size: 50px;
+  color: black !important;
+  z-index: 100;
+}
+
+/***********************************************************/
+
 
 .card-meta-blogpost{
   color:#333;
