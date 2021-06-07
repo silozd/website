@@ -5,8 +5,7 @@ header {
 body {
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
-  /*background: #202125;
-  color: white;*/
+  background: lightgray;  
 }
 
 p {
@@ -367,9 +366,31 @@ section {
   width: 80%;
 }
 
-.card2 .card-description{
-  padding: 0 10%;
-  width: 80%;
+h3{
+  font-size: 20px;
+}
+
+.card .card-description h3{
+  background: #313688;
+  color:  white;
+  box-shadow: 3px 5px 5px rgb(140,140,140);
+  padding: 2% 10px; 
+}
+
+.card2 {
+  display: flex;
+}
+
+.card2 .card2-description{
+  background: white;
+  padding: 10px 10%;
+  width: 100%;
+  display: flex;
+}
+
+.card2 h3{
+  color: #313688;
+  width: 280px;
 }
 
 .card-meta-blogpost{
@@ -395,6 +416,7 @@ section {
   font-weight: bold;
   cursor: pointer;
   background: white;
+  box-shadow: 3px 5px 5px rgb(170,170,170);
 }
 
 .btn-readmore:hover {

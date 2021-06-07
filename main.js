@@ -49,3 +49,12 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+$(document).on('ready', function () {
+    $(".card2").slick({
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        arrows: true,
+    });
+});
