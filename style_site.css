@@ -46,7 +46,7 @@ textarea:focus {
 
 #searchbox {
   position: fixed;
-  right: 0;
+  right: 420px;
   width: 370px;
   pointer-events: none;
   z-index: 50;
@@ -605,16 +605,33 @@ footer #social-media-footer ul li:hover a .fa-github {
 }
 
 /* Sidebar */
-
-#sidebar{
-  margin-left: 16%;
+#sidebar-nav{
+  margin-left: -250px;
+  right: 0;
+  top: 78px;
+  width: 15%;
+  background: #333;
+  color: white;
+  position: fixed;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.4s ease 0s;
+}
+.sidebar{
+  position: absolute;
+  top: 0;
+  width: 250px;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  /*margin-left: 16%;
   margin-right: -140px;
   background:#333;
   flex: 1;
   padding: 8px 16px;
   color:white;
   text-align: right;
-  /*box-shadow: inset 27px 0 51px -18px rgba(0,0,0,0.75);*/
+  box-shadow: inset 27px 0 51px -18px rgba(0,0,0,0.75);*/
 }
 
 /* Comments section */
@@ -649,7 +666,7 @@ footer #social-media-footer ul li:hover a .fa-github {
     border-left:0;
   }
 
-  #sidebar{
+  .sidebar{
     display: none;
   }
 }
