@@ -519,17 +519,20 @@ footer #social-media-footer ul li:hover a .fa-github {
 .page-heading{
   font-size:32px;
   font-family:'Roboto Condensed', sans-serif;
-  border-left:3px solid black;
-  border-right:3px solid black;
-  transition: all 0.4s;
+  border-left:3px solid #313688;
+  border-right:3px solid #313688;
+  transition: all 0.3s;
   display:inline-block;
   padding:4px 32px;
   margin-top: 120px;
+  color: #313688;
+  cursor: default;
 }
 
 .page-heading:hover{
-  padding:4px 48px;
-  background:red;
+  padding: 4px  80px;
+  background:#313688;
+  color: white;
 }
 
 .card-meta{
@@ -563,35 +566,55 @@ footer #social-media-footer ul li:hover a .fa-github {
   border-top:3px solid black;
 }
 
-/* Single Blogpost */
+/* Projects */
 
 #post-container{
   display: flex;
 }
 
-#blogpost{
+.projects{
   display: flex;
   flex-direction:column;
   width:70%;
-  border-left:1px solid #999;
 }
 
-#blogpost .card{
+.projects .card{
   width:100%;
 }
 
-#blogpost .card-image:hover{
+.projects .card-image{
+  width: 50%;
+}
+
+.projects .card-image:hover{
   box-shadow: none;
+}
+
+.projects .card-description{
+  margin-left: -100px;
+  width: 110%;
+}
+
+.projects h3{
+  font-size: 26px;
+  background: none;
+  box-shadow: none;
+  color: firebrick;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
 /* Sidebar */
 
 #sidebar{
+  margin-left: 16%;
+  margin-right: -140px;
   background:#333;
-  flex:1;
+  flex: 1;
   padding: 8px 16px;
   color:white;
-  box-shadow: inset 27px 0 51px -18px rgba(0,0,0,0.75);
+  text-align: right;
+  /*box-shadow: inset 27px 0 51px -18px rgba(0,0,0,0.75);*/
 }
 
 /* Comments section */
